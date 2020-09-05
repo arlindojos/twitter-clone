@@ -1,4 +1,3 @@
-import React from 'react';
 import styled from 'styled-components';
 
 interface Props {
@@ -7,7 +6,7 @@ interface Props {
 
 
 export default styled.button<Props>`
-    background: ${props => props.outlined ? 'tranparent' : 'var(--twitter)'};
+    background: ${props => props.outlined ? 'transparent' : 'var(--twitter)'};
     color: ${props => props.outlined ? 'var(--twitter)' : 'var(--white)'};
     border: ${props => props.outlined ? '1px solid var(--twitter)' : 'none'};
 
@@ -21,6 +20,6 @@ export default styled.button<Props>`
     outline: 0;
 
     &:hover {
-        background: ${props => props.outlined ? 'var()'}
+        background: ${props => props.outlined ? 'var(--twitter-dark-hover)' : 'var(--twitter-light-hover)'};
     }
 `;

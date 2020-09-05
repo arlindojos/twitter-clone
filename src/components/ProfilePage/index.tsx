@@ -1,6 +1,6 @@
 import React from 'react';
-import EditButton from '../Button;'
-import { Container, Banner, Avatar, ProfileData, Followage } from './styles';
+import { Container, Banner, EditButton, Avatar, ProfileData, Followage } from './styles';
+import Feed from '../Feed';
 
 const ProfilePage: React.FC = () => {
     return (
@@ -10,9 +10,9 @@ const ProfilePage: React.FC = () => {
             </Banner>
 
             <ProfileData>
-                {/* <EditButton outlined>
+                <EditButton outlined>
                     Editar Perfil
-                </EditButton> */}
+                </EditButton>
                 <h1>Arlindo josé</h1>
                 <h2>@arlindo_jose</h2>
 
@@ -40,6 +40,8 @@ const ProfilePage: React.FC = () => {
                     </span>
                 </Followage>
             </ProfileData>
+
+            <Feed />
         </Container>
     )
 }
