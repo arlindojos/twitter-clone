@@ -1,7 +1,8 @@
 <h1 align="center">
     Twitter Clone
 </h1>
-
+Clone disponivel pelo link: https://tweeterttclone.herokuapp.com/
+<br/>
 Twitter Web (>=1280px), (>=500px), (< 500px).
 
 <p align="center"></p>
