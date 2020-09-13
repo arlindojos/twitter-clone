@@ -27,4 +27,5 @@ Primeiro, clone o repositório para seu ambiente:
 ```
 
 No seu terminal, entra no repositorio clonado e insira o comando: 
-<br />`npm run start`  ou `yarn start` se tiver yarn instalado
+npm install ou yarn add se tiver yarn instalado #para instalar as dependencias
+npm run start ou yarn start se tiver yarn instalado #para inicial a aplicação
