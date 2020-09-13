@@ -25,7 +25,6 @@ Primeiro, clone o repositório para seu ambiente:
 ```bash
 > git clone https://github.com/arlindojos/twitter-clone.git
 ```
-
 No seu terminal, entra no repositorio clonado e insira o comando: 
-npm install ou yarn add se tiver yarn instalado #para instalar as dependencias
-npm run start ou yarn start se tiver yarn instalado #para inicial a aplicação
+<br />`npm install`  ou `yarn add` se tiver yarn instalado  #para instalar as dependencias
+<br />`npm run start`  ou `yarn start` se tiver yarn instalado  #para inicial a aplicação
